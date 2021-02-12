@@ -1,0 +1,42 @@
+{
+	"plugins": ["prettier"],
+	"parser": "babel-eslint",
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"extends": ["airbnb", "airbnb/hooks", "prettier"],
+	"rules": {
+		"no-tabs": "off",
+		// "indent": [1, "tab"],
+		"indent": "off",
+		"eol-last": "off",
+		"no-debugger": "off",
+		"no-console": 0,
+		"no-unused-vars": "warn",
+		"linebreak-style": "off",
+		"no-plusplus": "off",
+		"no-empty-function": ["error", { "allow": ["constructors"] }],
+		"no-useless-constructor": "off",
+		"import/order": "off",
+		// "react/jsx-indent": [1, "tab"],
+		"react/jsx-indent": "off",
+		"react/prop-types": "off",
+		"react/jsx-filename-extension": "off",
+		"react/jsx-tag-spacing": "off",
+		"react/destructuring-assignment": "off",
+		"react/self-closing-comp": "off",
+		"react/jsx-one-expression-per-line": "off",
+		"react/jsx-wrap-multilines": 1,
+		"prefer-const": [
+			"error",
+			{
+				"destructuring": "any",
+				"ignoreReadBeforeAssign": true
+			}
+		],
+		"quotes": ["error", "double"]
+	}
+}
+// "eslint:recommended"
